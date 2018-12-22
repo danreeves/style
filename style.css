@@ -1,0 +1,46 @@
+/* style.danreev.es */
+/* a nice css theme */
+/*  by dan reeves   */
+/*       2018       */
+/* have a nice day! */
+
+:root {
+  /* fonts */
+  --sans: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --serif: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+  --code: monaco, Consolas, Lucida Console, monospace;
+
+  /* colours */
+  --blk: black;
+  --wht: white;
+  --pnk: deeppink;
+  --blu: dodgerblue;
+  --grn: limegreen;
+}
+
+.sans {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.serif {
+  font-family: Baskerville, Baskerville Old Face, Hoefler Text, Garamond, Times New Roman, serif;
+}
+
+.code {
+  font-family: monaco, Consolas, Lucida Console, monospace;
+}
+
+.blk { color: black; }
+.bg-blk { background: black; }
+
+.wht { color: white; }
+.bg-wht { background: white; }
+
+.pnk { color: deeppink; }
+.bg-pnk { background: deeppink; }
+
+.blu { color: dodgerblue; }
+.bg-blu { background: dodgerblue; }
+
+.grn { color: limegreen; }
+.bg-grn { background: limegreen; }

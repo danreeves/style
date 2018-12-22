@@ -1,0 +1,93 @@
+body {
+  position: relative;
+  background: white;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, footer {
+  font-variant: small-caps;
+  font-weight: 900;
+  position: relative;
+}
+
+h1 { font-size: 1rem; margin-bottom: 2rem; }
+h2 { font-size: 0.75rem; margin-top: 3rem; margin-bottom: 1.5rem; }
+footer { margin-top: 3rem; }
+
+a { color: deeppink }
+
+h1::after,
+h2::after{
+  position: absolute;
+  display: block;
+  content: '';
+  width: calc(100% - 1.5em);
+  height: 2px;
+  background: black;
+  line-height: 10px;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+}
+
+h1::before,
+h2::before,
+hr::before {
+  content: '⌁';
+  position: absolute;
+  left: 0;
+  line-height: 1em;
+  font-size: 2em;
+  margin-top: 0.4em;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.font {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colour {
+  height: 128px;
+  width: 128px;
+  line-height: 128px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-variant: small-caps;
+  font-weight: 900;
+  border: 1px solid transparent;
+}
+
+.black {
+  background: black;
+}
+
+.bg-wht {
+  color: black;
+  border: 1px solid black;
+}
+
+.serif .code {
+  font-size: 0.75em;
+}
+
+.favicon-demo {
+  display: block;
+  height: 128px;
+  width: 128px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}

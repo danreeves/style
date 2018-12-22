@@ -1,0 +1,7 @@
+{
+  "name": "style",
+  "alias": "style.danreev.es",
+  "regions": ["all"],
+  "public": false,
+  "version": 2
+}
